@@ -6,7 +6,7 @@
 * 
 *  Name: Aditya Rahman Student ID: 046207130 Date: April 2, 2023
 *
-*  Vercel App (Deployed) Link: _____________________________________________________
+*  Vercel App (Deployed) Link: web422-a6-ivory.vercel.app
 *
 ********************************************************************************/ 
 
