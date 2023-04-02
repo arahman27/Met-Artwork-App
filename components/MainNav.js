@@ -71,14 +71,13 @@ export default function MainNav() {
                         </NavDropdown>
                     </Nav>}
                     {!token &&<Nav className="me-auto">
-                        <NavDropdown title={token.userName} id="basic-nav-dropdown">
-                            <Link href="/register" passHref><NavDropdown.Item href="/register" active={router.pathname === "/register"} onClick={() => setIsExpanded(false)}>
-                                Register
-                            </NavDropdown.Item></Link>
-                            <Link href="/login" passHref><NavDropdown.Item href="/login" active={router.pathname === "/login"} onClick={() => setIsExpanded(false)}>
-                                Login
-                            </NavDropdown.Item></Link>
-                        </NavDropdown>
+                        <Link href="/register" passHref active={router.pathname === "/register"} onClick={() => setIsExpanded(false)}>
+                            Register
+                        </Link>
+                        
+                        <Link href="/login" passHref active={router.pathname === "/login"} onClick={() => setIsExpanded(false)}>
+                            / Login
+                        </Link>
                     </Nav>}
                 </Navbar.Collapse>
                 </Container>
