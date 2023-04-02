@@ -34,7 +34,7 @@ export default function ArtworkCardDetail(prop) {
     }
 
     useEffect(()=>{
-        setShowAdded(favouritesList?.includes(objectID))
+        setShowAdded(favouritesList?.includes(prop))
     }, [favouritesList])
 
     async function favouritesClicked(e){
